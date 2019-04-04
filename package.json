@@ -1,0 +1,18 @@
+{
+  "name": "js-and-rockets",
+  "version": "1.0.0",
+  "description": "What could go wrong?",
+  "private": true,
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "@babel/preset-env": "^7.4.3",
+    "babel-jest": "^24.7.1",
+    "jest": "^24.7.1",
+    "parcel-bundler": "^1.6.1"
+  }
+}
