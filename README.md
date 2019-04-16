@@ -14,7 +14,7 @@ We'd like to give all candidates taking this test the same chances to solve the 
 1. **Clone** this repo to a location of your choosing.
 2. Write your solution to the exercise making sure tests are green.
 4. Push your solution to a **private** repo in your personal Github account.
-5. When you are ready for us to take a look add the user `adjust-dashbot` as collaborator to your repo.
+5. When you are ready for us to take a look add the user `adjust-frontend` as collaborator to your repo.
 
 
 ## Exercise
