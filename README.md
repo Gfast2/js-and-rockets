@@ -12,15 +12,14 @@ We'd like to give all candidates taking this test the same chances to solve the 
 ## Instructions
 
 1. **Clone** this repo to a location of your choosing.
-2. Write your solution to the exercise making sure tests are green.
-4. Push your solution to a **private** repo in your personal Github account.
+2. Write your solution to the exercise making sure the provided tests are green.
+4. Push your solution to a **private repo** in your **personal Github account**.
 5. When you are ready for us to take a look add the user `adjust-frontend` as collaborator to your repo.
 
 
 ## Exercise
 
-Using the data from `https://api.spacexdata.com/v3/launches/past` consolidate a list of all the missions that were launched in 2018 that carried a payload that belonged to NASA.
-Missions should appear in inverse chronological order with the exception that those that carried more payloads that should appear first.
+Using the past launches endpoint from the SpaceX API consolidate a list of all the missions that were launched in 2018 that carried a payload that belonged to NASA. Missions should appear in inverse chronological order with the exception that those that carried more payloads that should appear first.
 
 Display the outcome of your solution by rendering the list to the screen as JSON while keeping an indentation of 2 spaces. To make the evaluation process simpler we only care to see the flight number, the mission name and the amount of payloads carried by each mission.
 
@@ -63,7 +62,17 @@ Your solution is expected to render the following:
 ## Clarifications:
 
 - You can use **any** libraries you see fit.
-- You cannot use any of the filter parameters provided by the SpaceX API.
+- You can request the data from `https://api.spacexdata.com/v3/launches/past`, but you are not allowed to use any of the filter parameters provided by the SpaceX API.
 - It doesn't matter to which NASA program each payload belongs to as long as NASA is the customer.
 - Payloads are carried in the second stage of a rocket and they can belong to multiple customers.
 - Please use UTC dates for anything time related.
+
+
+## Helpful links:
+
+- [SpaceX API Docs][spacex-api]
+- [Inviting collaborators to a personal repository][github-collaborators]
+
+
+[spacex-api]: https://docs.spacexdata.com/?version=latest#fce450d6-e064-499a-b88d-34cc22991bcc
+[github-collaborators]: https://help.github.com/en/articles/inviting-collaborators-to-a-personal-repository
