@@ -6,15 +6,15 @@ Welcome to our little coding exercise. During this test you will be given the op
 
 Before you begin please make sure you read the entire file and that you understand everything. If there's anything that you don't please don't hesitate to reach out to ask.
 
-We'd like to give all candidates taking this test the same chances to solve the exercise in their own way. Because of this we ask you to please **do not fork or share this repo** with anybody.
+We'd like to give all candidates taking this test the same opportunity to solve the exercise in their own way, because of this we kindly ask you **not to fork or share this repo (or your solution) with anybody**
 
 
 ## Instructions
 
 1. **Clone** this repo to a location of your choosing.
 2. Write your solution to the exercise making sure the provided tests are green.
-4. Push your solution to a **private repo** in your **personal Github account**.
-5. When you are ready for us to take a look add the user `adjust-frontend` as collaborator to your repo.
+3. Push your solution to a **private repo** in your **personal Github account**.
+4. When you are ready for us to take a look add the user `adjust-frontend` as collaborator to your repo.
 
 
 ## Exercise
