@@ -4,7 +4,7 @@ Welcome to our little coding exercise. During this test you will be given the op
 
 <img src="https://i.imgur.com/ekyJNd9.jpg" width="600">
 
-Before you begin please make sure you read the entire file and that you understand everything. If there's anything that you don't please don't hesitate to reach out to ask.
+Before you begin **please make sure you read this readme file entirely** and that you understand everything. If there's anything that you don't please don't hesitate to reach out to ask.
 
 We'd like to give all candidates taking this test the same opportunity to solve the exercise in their own way, because of this we kindly ask you **not to fork or share this repo (or your solution) with anybody**
 
