@@ -4,9 +4,12 @@
     "commonjs": true,
     "es6": true
   },
+  "parser": "babel-eslint",
   "extends": [
     "eslint:recommended",
-    "eslint-config-prettier"
+    "eslint-config-prettier",
+    "standard",
+    "standard-react"
     // "plugin:prettier/recommended"
   ],
   "plugins": [
@@ -18,7 +21,8 @@
     "SharedArrayBuffer": "readonly"
   },
   "parserOptions": {
-    "ecmaVersion": 2018
+    "ecmaVersion": 2018,
+    "sourceType": "module"
   },
   "rules": {
     "no-console": "off",
@@ -45,6 +49,10 @@
     "semi": [
       "error",
       "always"
+    ],
+    "comma-dangle": [
+      "error",
+      "only-multiline"
     ],
     "prefer-const": "error",
     "prettier/prettier": [

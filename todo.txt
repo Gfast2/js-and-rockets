@@ -2,11 +2,14 @@
 
 / todo
 
-
 / done
 / read again, try around with some feeling searching (1h 5m, got some feeling, start to know what I need, filter results that happened in 2018)
 / filter out result's belonge to NASA (20m)
 / sort the result with two critian (40m)
+/ Figure out how to render the result onto screen (40m)
+/ filter out attributs that need to be displaied on screen (5m)
+/ Clean up ESLint config for modules with JSX (15m)
+/ Add small type checking for react component
 
 --- some importancy from README
 / making sure the provided tests are green.
@@ -18,9 +21,9 @@
 / flight_number, mission_name and launch_date_unix can be found in each object's root attribute
 / payloads_count can be found in nested attribute rocket.second_stage.payloads_count
 / Result rockets have to be NASA's, this can be found rocket.second_stage.payloads (array), and in each object's attribute customers (array) can find this
-
 / result list critian:
   - lauches in 2018                         €€
   - a (one) payload that belonged to NASA   €€
-  - inverse chronological order
-  - order with exception that those that carried more payloads should appear first
+  - inverse chronological order             €€
+  - order with exception that those that carried more payloads should appear first €€
+/ The render function will call prepareData eventually to draw the thing

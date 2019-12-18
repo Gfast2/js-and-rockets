@@ -1,4 +1,6 @@
 // Please implement your solution in this file
+import React from 'react';
+import PropTypes from 'prop-types';
 
 const filter18flights = arr => {
   const startUnix18 = 1514764800 - 1;
@@ -27,16 +29,32 @@ const sortPCountFunc = (objA, objB) => {
   return payloadCount(objB) - payloadCount(objA);
 };
 
+const filterAttributes = arr => {
+  const resultArr = arr.map(e => {
+    const { flight_number, mission_name } = e;
+    const payloads_count = e.rocket.second_stage.payloads.length;
+    return { flight_number, mission_name, payloads_count };
+  });
+  return resultArr;
+};
+
 const prepareData = data => {
   const list18 = filter18flights(data);
   const listNasa = filterNasas(list18);
   const listSorted = listNasa.sort(sortTFunc).sort(sortPCountFunc);
-  return listSorted;
+  const listFilterAtt = filterAttributes(listSorted);
+  return listFilterAtt;
 };
 
-const noop = () => {};
+const renderData = props => {
+  return <div>{JSON.stringify(props.filteredData, null, '  ')}</div>;
+};
+
+renderData.propTypes = {
+  filteredData: PropTypes.object,
+};
 
 module.exports = {
   prepareData,
-  renderData: noop,
+  renderData,
 };
