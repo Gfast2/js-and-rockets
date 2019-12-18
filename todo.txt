@@ -1,0 +1,26 @@
+/ backlog
+
+/ todo
+
+
+/ done
+/ read again, try around with some feeling searching (1h 5m, got some feeling, start to know what I need, filter results that happened in 2018)
+/ filter out result's belonge to NASA (20m)
+/ sort the result with two critian (40m)
+
+--- some importancy from README
+/ making sure the provided tests are green.
+/ Push your solution to a private repo in your personal Github account.
+
+--- own notes
+/ It's array of objects
+/ each object is one "flight"
+/ flight_number, mission_name and launch_date_unix can be found in each object's root attribute
+/ payloads_count can be found in nested attribute rocket.second_stage.payloads_count
+/ Result rockets have to be NASA's, this can be found rocket.second_stage.payloads (array), and in each object's attribute customers (array) can find this
+
+/ result list critian:
+  - lauches in 2018                         €€
+  - a (one) payload that belonged to NASA   €€
+  - inverse chronological order
+  - order with exception that those that carried more payloads should appear first
