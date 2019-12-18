@@ -10,6 +10,7 @@
 / filter out attributs that need to be displaied on screen (5m)
 / Clean up ESLint config for modules with JSX (15m)
 / Add small type checking for react component
+/ finish unit tests (37m)
 
 --- some importancy from README
 / making sure the provided tests are green.

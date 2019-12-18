@@ -1,6 +1,6 @@
 // Please implement your solution in this file
 import React from 'react';
-import PropTypes from 'prop-types';
+import ReactDOM from 'react-dom';
 
 const filter18flights = arr => {
   const startUnix18 = 1514764800 - 1;
@@ -46,12 +46,9 @@ const prepareData = data => {
   return listFilterAtt;
 };
 
-const renderData = props => {
-  return <div>{JSON.stringify(props.filteredData, null, '  ')}</div>;
-};
-
-renderData.propTypes = {
-  filteredData: PropTypes.object,
+const renderData = arr => {
+  const root = document.getElementById('out');
+  ReactDOM.render(<>{JSON.stringify(arr, null, '  ')}</>, root);
 };
 
 module.exports = {
